@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: twopod1
+spec:
+  containers:
+  - name: contenedor1
+    image: sergio711/randomnames:v1 
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: twopod2
+spec: 
+  containers:
+  - name: contenedor1
+    image: sergio711/randomnames:v1
+
+

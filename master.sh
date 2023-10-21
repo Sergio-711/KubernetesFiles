@@ -1,2 +1,2 @@
-sudo hostnamectl set-hostname "k8smater.example.net"
+sudo hostnamectl set-hostname "mastersergio"
 exec bash
