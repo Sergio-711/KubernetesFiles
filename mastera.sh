@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Definir las direcciones IP y nombres de host
-master_ip="192.168.0.21"
+master_ip="10.4.61.51"
 
-master_host="k8smaster.example.net k8smaster"
+master_host="mastersergio mastersergio"
 
 # Agregar entradas en /etc/hosts
 echo "$master_ip $master_host" | sudo tee -a /etc/hosts
